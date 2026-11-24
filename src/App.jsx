@@ -2,6 +2,8 @@
 import './App.css'
 
 function App() {
+  const navegadorEdge = /Edg\//i.test(navigator.userAgent)
+
   const projetos = [
     {
       numero: '01',
@@ -77,6 +79,14 @@ function App() {
 
   return (
     <main>
+      {navegadorEdge && (
+        <div className="browser-warning">
+          <span>ⓘ</span>
+          Para uma melhor experiência, recomendamos acessar
+          nosso site pelo Google Chrome ou Mozilla Firefox.
+        </div>
+      )}
+
       <header className="header">
         <a href="#inicio" className="logo">
           RENGAH<span>DEV</span>
