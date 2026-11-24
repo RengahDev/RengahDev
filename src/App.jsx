@@ -309,7 +309,7 @@ function App() {
             Falar pelo WhatsApp ↗
           </a>
           <a
-            href="https://mail.google.com/mail/?view=cm&fs=1&to=rengahgameplay%40protonmail.com"
+            href="https://mail.google.com/mail/u/0/?to=rengahgameplay%40protonmail.com&tf=cm"
             target="_blank"
             rel="noopener noreferrer"
             className="button secondary"
